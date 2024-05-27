@@ -1,0 +1,28 @@
+.card-header-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.debounce-input:focus {
+  border-color: #40a9ff;
+  border-right-width: 1px!important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(24,144,255,.2);
+}
+.debounce-input:hover {
+  border-color: #40a9ff;
+  border-right-width: 1px!important;
+  outline: 0;
+}
+.debounce-input {
+  padding: 3px 12px;
+  border: 1px solid #d9d9d9;
+  padding: 4px 11px;
+  color: rgba(0,0,0,.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+}
+.action-settings svg{
+	margin-top: -6px;
+}
